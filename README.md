@@ -1,14 +1,31 @@
-# Translation App
+# Selfie-a-Day App Development Project
 
-The user has a basic translation app that can translate between different languages
-## Functionality 
+Overview
+This project involves creating an app that allows users to take a selfie each day, view their selfies in a gallery, and interact with images using Firebase Storage and the CameraX library.
+
+#Functionality
 
 The following **required** functionality is completed:
 
-* [ ] User can choose which language they want to translate from
-* [ ] User can choose which langauge to translate to
-* [ ] User can input text to translate
-* [ ] User can view the translated texts
+Image Display and Interaction:
+
+Initial Display: Show a collection of images stored in Firebase Storage when the app loads.
+Image Enlargement: Tapping an image displays it in full screen.
+Shake Gesture: Shaking the device opens a fragment to take a selfie.
+Selfie Capturing:
+
+Camera Fragment: Use the CameraX library to facilitate selfie capturing.
+Image Upload: After taking a selfie, the image is uploaded to Firebase Storage.
+Return to Gallery: Automatically navigate back to the image gallery upon image upload.
+Authentication:
+
+Implement user authentication to personalize image storage and access.
+Storage and Retrieval:
+
+Use Firebase Storage for storing and retrieving images.
+Image Display Library:
+
+Utilize Glide for efficient image loading and display in the app.
 
 
 The following **extensions** are implemented:
