@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_confirmation">Are you sure you want to delete the note?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="enter_your_email">Enter Your Email .....</string>
+    <string name="enter_your_pass">Enter Your Password .....</string>
+    <string name="re_enter_your_pass">Re-enter Your Password .....</string>
+</resources>
